@@ -1,0 +1,40 @@
+.header {
+  padding: 10px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #80808080;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-right-section img {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.header-right-section .user-name {
+  margin-left: 10px;
+  color: navy;
+  font-size: 14px;
+  position: relative;
+  top: 4px;
+}
+.header-right-section button {
+  margin-left: 10px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 450px) {
+  .header-right-section .user-name {
+    display: none;
+  }
+}

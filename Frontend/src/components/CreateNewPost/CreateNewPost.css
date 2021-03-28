@@ -1,0 +1,10 @@
+.new-post-textarea {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #80808080;
+}
+.new-posts-section button {
+  width: 100%;
+  font-size: 18px;
+}

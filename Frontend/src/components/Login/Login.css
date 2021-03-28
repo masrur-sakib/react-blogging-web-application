@@ -1,0 +1,31 @@
+.login-page {
+  padding-top: 80px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px -2px #48497926;
+  border: 1px solid #8080801a;
+  border-radius: 10px;
+  text-align: center;
+}
+.login-section div {
+  display: flex;
+  justify-content: center;
+}
+.login-section img {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.login-section .user-name {
+  margin-left: 10px;
+  color: navy;
+}
+.login-section button {
+  margin-top: 10px;
+  border-radius: 50px;
+}
