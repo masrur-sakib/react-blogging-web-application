@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
 import "./Header.css";
 import { blogContext } from "../../App";
-import firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/auth";
 import { Link } from "react-router-dom";
 
 const Header = () => {

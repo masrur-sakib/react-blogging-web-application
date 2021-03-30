@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import "./App.css";
-import firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/auth";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";

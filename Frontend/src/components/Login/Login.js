@@ -1,7 +1,8 @@
 import React, { useContext, useEffect } from "react";
 import { blogContext } from "../../App";
 import "./Login.css";
-import firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/auth";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 
 firebase.initializeApp({
